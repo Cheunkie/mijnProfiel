@@ -1,11 +1,14 @@
-h1{
-    color:red;
-}
+/*Google's Custom font style'*/
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+/*HTML-page background all light grey and all-round font-family Raleway @ 15 px*/
 html{
-    background-color: light grey;
+    background-color: lightgrey;
+    font-family: 'Raleway';
+    font-size : 15px;
 }
+
 #header{
     height:100px;
     width: 100%;
-    background-color: black;
+    background-color: cadetblue;
 }
