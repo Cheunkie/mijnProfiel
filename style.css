@@ -4,17 +4,20 @@
 
 html{
     height:100%;
-    font-size : 15px;
+    font-size : 12px;
     font-family: 'Raleway';
+    color:#777;
 }
 
 .bg-image1{
 
     /*Background image*/
     background-image: url("img/The_Great_Wave_off_Kanagawa.jpg");
-
+    /*height*/
     min-height: 500px;
     width: 100%;
+
+    /*background to make an parallex*/
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,5 +29,5 @@ html{
     margin-top: -20px;
     height:900px;
     width: 100%;
-    background-color: cadetblue;
+    border-color: black;
 }
