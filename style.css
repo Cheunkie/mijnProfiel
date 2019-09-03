@@ -1,14 +1,30 @@
 /*Google's Custom font style'*/
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 /*HTML-page background all light grey and all-round font-family Raleway @ 15 px*/
+
 html{
-    background-color: lightgrey;
-    font-family: 'Raleway';
+    height:100%;
     font-size : 15px;
+    font-family: 'Raleway';
 }
 
-#header{
-    height:100px;
+.bg-image1{
+
+    /*Background image*/
+    background-image: url("img/The_Great_Wave_off_Kanagawa.jpg");
+
+    min-height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#container-main{
+    margin-top: -20px;
+    height:900px;
     width: 100%;
     background-color: cadetblue;
 }
