@@ -103,11 +103,26 @@ html{
     /*max-height: 60%;*/
 }
 
-span{
+span {
     font-weight: bold;
     color: red;
+}
 
-
-.port-image01{
-background-image: }
+.port-image{
+    background-repeat: no-repeat;
+    background-color: blue;
+    background-size: cover;
+    width: 100%;
+    min-height: 300px;
+    margin:auto;
+}
+.pr-image-1{
+    background-image: url("img/JPN.jpg");
+}
+.pr-image-2{
+    background-image: url("img/HK.jpg");
+}
+.pr-image-3{
+    background-image: url("img/bled.jpg");
+    height: 100%;
 }
