@@ -31,7 +31,9 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-.col-option{ margin-top: -100px;
+.col-option{
+    margin-top: 100px;
+    display: block;
 }
 /*HTML-page background all light grey and all-round font-family Raleway @ 15 px*/
 html{
@@ -90,6 +92,7 @@ html{
 }
 
 .pr-image{
+    display: block;
     background-image: url("img/profile-img.png.jpg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -111,18 +114,35 @@ span {
 .port-image{
     background-repeat: no-repeat;
     background-color: blue;
-    background-size: cover;
-    width: 100%;
-    min-height: 300px;
+    background-size: contain;
     margin:auto;
+    width: 100%;
 }
 .pr-image-1{
     background-image: url("img/JPN.jpg");
+    height: 700px;
 }
 .pr-image-2{
     background-image: url("img/HK.jpg");
+    background-size: cover;
+    background-position: 100% 100%;
+    height: 700px;
+
 }
 .pr-image-3{
     background-image: url("img/bled.jpg");
-    height: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 800px;
+}
+
+.pr-image-4{
+    background-image: url("img/hk2.jpg");
+    /*background-size: cover;*/
+    /*width: 100%;*/
+    /*overflow: hidden;*/
+    /*height: 1000px;*/
+}
+.p-plus{
+    font-size: 1.17em;
 }
