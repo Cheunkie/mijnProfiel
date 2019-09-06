@@ -32,7 +32,7 @@
 .col-12 {width: 100%;}
 
 .col-option{
-    margin-top: 100px;
+    margin-top: -100px;
     display: block;
 }
 /*HTML-page background all light grey and all-round font-family Raleway @ 15 px*/
@@ -113,35 +113,51 @@ span {
 
 .port-image{
     background-repeat: no-repeat;
-    background-color: blue;
+    /*background-color: blue;*/
     background-size: contain;
     margin:auto;
     width: 100%;
+    min-height: 350px;
 }
 .pr-image-1{
     background-image: url("img/JPN.jpg");
     height: 700px;
+    background-size: cover;
 }
 .pr-image-2{
     background-image: url("img/HK.jpg");
-    background-size: cover;
+    /*background-size: contain;*/
+    top:0;
     background-position: 100% 100%;
-    height: 700px;
-
+    /*height: 700px;*/
+    max-height: 90%;
 }
 .pr-image-3{
     background-image: url("img/bled.jpg");
     background-size: cover;
     background-position: 50% 50%;
     height: 800px;
+
 }
 
 .pr-image-4{
     background-image: url("img/hk2.jpg");
     /*background-size: cover;*/
-    /*width: 100%;*/
-    /*overflow: hidden;*/
-    /*height: 1000px;*/
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    /*margin-left: 1p*/
+}
+
+.pr-image-5{
+    background-image: url("img/fin.gif");
+    /*background-size: cover;*/
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    overflow: hidden;
+    /*margin-left: 1p*/
 }
 .p-plus{
     font-size: 1.17em;
